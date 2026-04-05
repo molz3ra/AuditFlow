@@ -1,4 +1,7 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Deixe o resto do arquivo como estiver abaixo disso */
 
 :root {
   --background: #ffffff;
